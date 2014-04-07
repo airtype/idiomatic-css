@@ -162,14 +162,6 @@ box-model) together.
 
 ```css
 .selector {
-    /* Positioning */
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
     /* Display & Box Model */
     display: inline-block;
     overflow: hidden;
@@ -179,13 +171,24 @@ box-model) together.
     padding: 10px;
     border: 10px solid #333;
     margin: 10px;
-
-    /* Other */
-    background: #000;
+    
+    /* Positioning */
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    /* Fonts */
     color: #fff;
     font-family: sans-serif;
     font-size: 16px;
     text-align: right;
+
+    /* Other */
+    background: #000;
+    box-shadow: 0 0 0 #000;
 }
 ```
 
